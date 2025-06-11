@@ -1,0 +1,65 @@
+year,month,state,stock1000tons
+2021,5,California,220
+2021,5,Colorado,230
+2021,5,Idaho,410
+2021,5,New Mexico,40
+2021,5,Oregon,290
+2021,5,Utah,170
+2021,5,Washington,220
+2021,12,California,1200
+2021,12,Colorado,2000
+2021,12,Idaho,2350
+2021,12,New Mexico,240
+2021,12,Oregon,920
+2021,12,Utah,1020
+2021,12,Washington,1100
+2022,5,California,280
+2022,5,Colorado,580
+2022,5,Idaho,530
+2022,5,New Mexico,30
+2022,5,Oregon,220
+2022,5,Utah,290
+2022,5,Washington,180
+2022,12,California,1155
+2022,12,Colorado,1350
+2022,12,Idaho,2500
+2022,12,New Mexico,200
+2022,12,Oregon,1410
+2022,12,Utah,1250
+2022,12,Washington,1200
+2023,5,California,325
+2023,5,Colorado,170
+2023,5,Idaho,460
+2023,5,New Mexico,30
+2023,5,Oregon,230
+2023,5,Utah,480
+2023,5,Washington,360
+2023,12,California,1550
+2023,12,Colorado,1650
+2023,12,Idaho,2550
+2023,12,New Mexico,250
+2023,12,Oregon,1200
+2023,12,Utah,1360
+2023,12,Washington,1500
+2024,5,California,225
+2024,5,Colorado,800
+2024,5,Idaho,740
+2024,5,New Mexico,110
+2024,5,Oregon,400
+2024,5,Utah,620
+2024,5,Washington,360
+2024,12,California,1400
+2024,12,Colorado,1890
+2024,12,Idaho,2200
+2024,12,New Mexico,680
+2024,12,Oregon,1600
+2024,12,Utah,1350
+2024,12,Washington,1100
+2024,12,Montana,3800
+2024,5,Montana,1590
+2023,12,Montana,3850
+2023,5,Montana,450
+2022,12,Montana,3250
+2022,5,Montana,450
+2021,12,Montana,2900
+2021,5,Montana,970
