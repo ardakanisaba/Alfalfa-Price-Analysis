@@ -1,26 +1,26 @@
 # This repository contains all R scripts and data-processing workflows used in the analysis for the paper:"Quantifying Drought’s Role in Alfalfa Price Formation: A Multi-Factor Empirical Study of the Western U.S."
 
-# -----------------------Repository Srtucture----------------------#
 
+## Repository Structure
 ├── Code/
-│   ├── data processing.R                  # Data cleaning, merging, and transformation
-│   ├── Figures.R                          # Script for generating publication-ready figures
-│   └── Summary statistics and Regression.R  # Summary stats + econometric modeling
+│ ├── data processing.R # Data cleaning, merging, and transformation
+│ ├── Figures.R # Script for generating publication-ready figures
+│ └── Summary statistics and Regression.R # Summary stats + econometric modeling
 
 ├── Data/
-│   ├── Climate Engine Data/              # (Optional sub-data source)
-│   ├── alfalfa historical trends.csv
-│   ├── alfalfa price trend (1990–2024).csv
-│   ├── alfalfa production historical trends.csv
-│   ├── base_dataset.xlsx
-│   ├── corn price.csv
-│   ├── drought DSCI.csv
-│   ├── export china quantity.csv
-│   ├── feederprice.csv
-│   ├── monthly precip.csv
-│   ├── monthly temp.csv
-│   ├── production-yield-area for 4 crops.csv
-│   └── stock.csv
+│ ├── Climate Engine Data/ # (Optional sub-data source)
+│ ├── alfalfa historical trends.csv
+│ ├── alfalfa price trend (1990–2024).csv
+│ ├── alfalfa production historical trends.csv
+│ ├── base_dataset.xlsx
+│ ├── corn price.csv
+│ ├── drought DSCI.csv
+│ ├── export china quantity.csv
+│ ├── feederprice.csv
+│ ├── monthly precip.csv
+│ ├── monthly temp.csv
+│ ├── production-yield-area for 4 crops.csv
+│ └── stock.csv
 
 
 ---
