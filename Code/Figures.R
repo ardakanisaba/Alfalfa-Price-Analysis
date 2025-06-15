@@ -50,7 +50,7 @@ journal_theme <- function() {
 }
 
 #------------------------------------------------------------------------------------------------
-#Figure A1: Production of alfalfa compared to corn,soybean and wheat in 2024 (introduction)
+#Production of alfalfa compared to corn,soybean and wheat in 2024 (introduction)
 #----------------------------------------------------------------------------------------------
 
 crop_data <- read.csv(file.path(dir$rawdata, "production-yield-area for 4 crops.csv"))
@@ -80,7 +80,7 @@ ggsave(filename = paste0(dir$fig, "crop_production_2024.png"),
 
 
 #----------------------------------------------------------------------------------
-# Figure A2: alfalfa production share over time for western states(1990-2024)
+# alfalfa production share over time for western states(1990-2024)
 #-----------------------------------------------------------------------------------
 
 install.packages("rnassqs")
@@ -154,7 +154,7 @@ ggsave(filename = paste0(dir$fig, "A2-alfalfa_production share_2024.png"),
 
 
 #-----------------------------------------------------------------------------------------
-# Figure A3:Alfalfa Production Historical Trend by State
+# Alfalfa Production Historical Trend by State
 #------------------------------------------------------------------------------------------
 hay_production <- read.csv(file.path(dir$rawdata, "alfalfa historical trends.csv"))
 
@@ -201,7 +201,7 @@ ggsave(filename = paste0(dir$fig, "alfalfa production by state history.png"),
 
 
 #---------------------------------------------------------------------------
-#Figure A4: Alfalfa price over time (1990-2024)
+#Alfalfa price over time (1990-2024)
 #----------------------------------------------------------------------------
 alfalfa_price <- read.csv(file.path(dir$rawdata, "alfalfa price trend (1990-2024).csv"))
 
@@ -237,7 +237,7 @@ ggsave(filename = paste0(dir$fig, "A4-Alfalfa price over time (1990-2024).png"),
 
 
 #---------------------------------------------------------
-# Figure A5:box plot for alfalfa price across west states
+# box plot for alfalfa price across west states
 #------------------------------------------------------------
 ggplot(hay_data, aes(x = state, y = priceAvgPerTon, fill = state)) +
   geom_boxplot(outlier.color = "red4", outlier.shape = 16, outlier.size = 3) +  # Highlights outliers in red
@@ -274,7 +274,7 @@ ggsave(filename = paste0(dir$fig, "alfalafa price boxplot across state.png"),
 
 
 #---------------------------------------------------
-#Figure A6: Export and Price
+#Export and Price
 #------------------------------------------------------
 
 export_bin_V <- hay_data %>%
@@ -305,7 +305,7 @@ ggsave(filename = paste0(dir$fig, "Export quantity and price relationship.png"),
 
 
 #-------------------------------------------------------------------
-#Figure A7:alfalfa price and drought relationship
+#alfalfa price and drought relationship
 #----------------------------------------------------------------------
 
 # Compute percentiles for the shaded area
@@ -343,7 +343,7 @@ ggsave(filename = paste0(dir$fig, "drought and alfalfa price relationship.png"),
        width = 10, height = 6, units = "in", dpi = 300)
 
 #---------------------------------------------------------------------------
-#Figure A8: Quality and Package Relationship with price
+#Quality and Package Relationship with price
 #-----------------------------------------------------------------------
 # Prepare Quality Data
 quality_summary <- hay_data %>%
