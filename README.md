@@ -22,51 +22,62 @@
 │   ├── production-yield-area for 4 crops.csv
 │   └── stock.csv
 
-# ------------------ Scripts Description--------------------------#
-## data processing.R
-### Loads, cleans, and merges raw datasets:
-###USDA hay market reports
-###Drought Severity and Coverage Index (DSCI)
-###Climate data (precipitation, temperature)
-###Corn and feeder cattle prices
-###Export volumes(China) and inventory data
 
-#Converts all price values to a standardized $/ton basis
-#Removes price outliers using IQR method
-#Produces cleaned datasets for modeling and visualization
+---
 
+## Scripts Description
 
-## figures.R
-##Generates all exploratory and presentation-ready figures, including:
-###Alfalfa production value comparison
-###Western U.S. production share
-###State-level historical production trends
-###Alfalfa price trend over time 
-###Price variation across states 
-###Price–export and price–drought relationships
-###Packaging/quality effects on price 
+### `data processing.R`
 
+- **Loads, cleans, and merges raw datasets:**
+  - USDA hay market reports  
+  - Drought Severity and Coverage Index (DSCI)  
+  - Climate data (precipitation, temperature)  
+  - Corn and feeder cattle prices  
+  - Export volumes to China and inventory data
 
-## Sumaary statistics and Regression models.R
-##Generates summary statistics
+- **Key Processing Steps:**
+  - Converts all price values to standardized $/ton basis  
+  - Removes price outliers using IQR method  
+  - Produces cleaned datasets for modeling and visualization
 
-##Runs multiple regression models:
-###Baseline price model
-###Interaction models (drought × export, drought × quality, etc.)
+---
 
+### `figures.R`
 
+- **Generates all publication-ready figures:**
+  - Alfalfa production value comparison  
+  - Western U.S. production share over time  
+  - State-level historical production trends  
+  - Alfalfa price trend (1990–2024)  
+  - Price variation across states  
+  - Price–export and price–drought relationships  
+  - Packaging and quality effects on price
 
-# ------------------ Scripts Description--------------------------#
+---
 
-# Raw Data Files:
-##base_dataset.xlsx: USDA hay market prices ( Direct Reports)
-##drought DSCI.csv: Drought Severity and Coverage Index (Drought Monitor)
-##monthly precip.csv, monthly temp.csv: Climate Engine precipitation and temperature data
-##corn price.csv, feederprice.csv: Market prices for feed substitutes(USDA)
-##export china quantity.csv: Alfalfa export volumes to China(USDA FAS)
-##stock.csv: Inventory data by state(USDA NASS)
-##production-yield-area for 4 crops.csv: Comparative production value(USDA NASS)
-#historical alfalfa trend ( production and price ): USDA NASS
+### `Summary statistics and Regression models.R`
+
+- **Generates summary statistics**
+- **Runs regression models:**
+  - Baseline price model  
+  - Interaction models (e.g., drought × export, drought × quality, drought × package)
+
+---
+
+## Raw Data Files
+
+- `base_dataset.xlsx`: USDA hay market prices (Direct Reports)  
+- `drought DSCI.csv`: Drought Severity and Coverage Index (Drought Monitor)  
+- `monthly precip.csv`, `monthly temp.csv`: Climate Engine precipitation and temperature data  
+- `corn price.csv`, `feederprice.csv`: Market prices for feed substitutes (USDA)  
+- `export china quantity.csv`: Alfalfa export volumes to China (USDA FAS)  
+- `stock.csv`: Inventory data by state (USDA NASS)  
+- `production-yield-area for 4 crops.csv`: Comparative production value (USDA NASS)  
+- `alfalfa historical trends.csv`, `alfalfa price trend (1990–2024).csv`: Historical alfalfa trends (production and price; USDA NASS)
+
+---
+
 
 
 
