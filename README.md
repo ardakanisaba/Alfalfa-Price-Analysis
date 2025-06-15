@@ -66,6 +66,7 @@
 ##export china quantity.csv: Alfalfa export volumes to China(USDA FAS)
 ##stock.csv: Inventory data by state(USDA NASS)
 ##production-yield-area for 4 crops.csv: Comparative production value(USDA NASS)
+#historical alfalfa trend ( production and price ): USDA NASS
 
 
 
