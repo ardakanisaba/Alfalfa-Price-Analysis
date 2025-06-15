@@ -1,7 +1,7 @@
 # This repository contains all R scripts and data-processing workflows used in the analysis for the paper:"Quantifying Drought’s Role in Alfalfa Price Formation: A Multi-Factor Empirical Study of the Western U.S."
 
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── Code/
